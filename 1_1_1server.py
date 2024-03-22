@@ -10,12 +10,12 @@ def hi():
     return "Hi，你好"
 @app.route('/gdp2.html')
 def gbd():
-    with open('../就业班/就业-day07http协议和web服务器/sources/html/gdp.html', 'r', encoding='utf-8') as f:
+    with open('..//gdp.html', 'r', encoding='utf-8') as f:
         content = f.read()
     return content
 @app.route('/index.html')
 def index():
-    with open('../就业班/就业-day07http协议和web服务器/sources/html/index.html', 'r', encoding='utf-8') as f:
+    with open('..//index.html', 'r', encoding='utf-8') as f:
         content = f.read()
     return content
 if __name__=="__main__":
